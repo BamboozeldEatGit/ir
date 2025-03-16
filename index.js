@@ -9,6 +9,7 @@ import wisp from "wisp-server-node";
 import request from '@cypress/request';
 import chalk from 'chalk';
 import packageJson from './package.json' assert { type: 'json' };
+import fs from 'node:fs';
 const __dirname = path.resolve();
 const server = http.createServer();
 const bareServer = createBareServer('/seal/');
@@ -43,6 +44,41 @@ app.use(
   })
 );
 
+// Replace the webp middleware with a streaming approach
+app.use((req, res, next) => {
+  // Handle static files from the static directory
+  const staticPath = path.join(__dirname, 'static');
+  const filePath = path.join(staticPath, req.path);
+  
+  // If the file exists and is a webp
+  if (req.path.endsWith('.webp')) {
+    fs.access(filePath, fs.constants.F_OK, (err) => {
+      if (err) {
+        // File doesn't exist, move to next middleware
+        return next();
+      }
+      
+      // Set headers without Content-Length
+      res.setHeader('Content-Type', 'image/webp');
+      res.removeHeader('Content-Length'); // Ensure no Content-Length header
+      
+      // Stream the file instead of using sendFile
+      const stream = fs.createReadStream(filePath);
+      stream.pipe(res);
+      
+      stream.on('error', (err) => {
+        console.error('Error streaming file:', err);
+        if (!res.headersSent) {
+          res.status(500).send('Error serving file');
+        }
+      });
+    });
+  } else {
+    next(); // Not a webp, let other middleware handle it
+  }
+});
+
+// Use regular static middleware for other files
 app.use(express.static(path.join(__dirname, 'static')));
 app.use("/uv/", express.static(uvPath));
 app.use("/epoxy/", express.static(epoxyPath));
@@ -72,6 +108,19 @@ app.get('/worker.js', (req, res) => {
 app.use((req, res) => {
   res.statusCode = 404;
   res.sendFile(path.join(__dirname, './static/404.html'));
+});
+
+// Add error handling middleware
+app.use((err, req, res, next) => {
+  console.error('Error handling request:', req.path);
+  console.error(err);
+  
+  // If headers already sent, just end the response
+  if (res.headersSent) {
+    return next(err);
+  }
+  
+  res.status(500).send('Internal Server Error');
 });
 
 server.on("request", (req, res) => {
