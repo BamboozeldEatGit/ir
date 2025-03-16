@@ -8,8 +8,6 @@ import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import wisp from "wisp-server-node";
 import request from '@cypress/request';
 import chalk from 'chalk';
-import packageJson from './package.json' assert { type: 'json' };
-
 const __dirname = path.resolve();
 const server = http.createServer();
 const bareServer = createBareServer('/seal/');
