@@ -8,10 +8,12 @@ import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import wisp from "wisp-server-node";
 import request from '@cypress/request';
 import chalk from 'chalk';
+import packageJson from './package.json' assert { type: 'json' };
 const __dirname = path.resolve();
 const server = http.createServer();
 const bareServer = createBareServer('/seal/');
 const app = express(server);
+const version = packageJson.version;
 const discord = 'https://discord.gg/unblocking';
 const routes = [
   { route: '/mastery', file: './static/loader.html' },
@@ -21,6 +23,18 @@ const routes = [
   { route: '/info', file: './static/info.html' },
   { route: '/mycourses', file: './static/loading.html' }
 ];
+
+// Add middleware to handle headers
+app.use((req, res, next) => {
+  const originalSetHeader = res.setHeader;
+  res.setHeader = function(name, value) {
+    if (name.toLowerCase() === 'content-length' && res.getHeader('content-length')) {
+      return;
+    }
+    return originalSetHeader.call(this, name, value);
+  };
+  next();
+});
 
 app.use(express.json());
 app.use(
@@ -80,7 +94,7 @@ server.on('listening', () => {
   console.log(chalk.green('  🌍 Port: ') + chalk.bold(chalk.yellow(server.address().port)));
   console.log(chalk.green('  🕒 Time: ') + chalk.bold(new Date().toLocaleTimeString()));
   console.log(chalk.cyan('-----------------------------------------------'));
-  console.log(chalk.magenta('📦 Version: ') + chalk.bold('idk'));
+  console.log(chalk.magenta('📦 Version: ') + chalk.bold(version));
   console.log(chalk.magenta('🔗 URL: ') + chalk.underline('http://localhost:' + server.address().port));
   console.log(chalk.cyan('-----------------------------------------------'));
   console.log(chalk.blue('💬 Discord: ') + chalk.underline(discord));
