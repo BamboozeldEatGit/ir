@@ -1,0 +1,493 @@
+[
+  {
+    "name": "! Create Custom App",
+    "imageUrl": "/assets/media/icons/custom.webp",
+    "url": "openAg('/assets/media/icons/custom.webp')"
+  },
+  {
+    "name": "! Interstellar FAQ/Docs",
+    "imageUrl": "/assets/media/icons/help_center_googlefonts.png",
+    "url": "openAg('https://docs.gointerstellar.app')"
+  },
+  {
+    "name": "! [NEW] Request An App",
+    "imageUrl": "/assets/media/icons/request.webp",
+    "url": "openAg('https://forms.gle/vwdHN3iPz5cLaHaMA')"
+  },
+  {
+    "name": "Amazon",
+    "imageUrl": "/assets/media/icons/amazon.webp",
+    "url": "openAg('https://amazon.com/')"
+  },
+  {
+    "name": "Steam",
+    "imageUrl": "/assets/media/icons/steam.webp",
+    "url": "openAg('https://store.steampowered.com/')"
+  },
+  {
+    "name": "BuzzFeed Quizzes",
+    "imageUrl": "/assets/media/icons/buzzfeed.webp",
+    "url": "openAg('https://www.buzzfeed.com/quizzes')"
+  },
+  {
+    "name": "Guilded",
+    "imageUrl": "/assets/media/icons/guilded.webp",
+    "url": "openAg('https://www.guilded.gg/')"
+  },
+  {
+    "name": "Android",
+    "imageUrl": "/assets/media/icons/android.webp",
+    "url": "openAg('https://now.gg/iframe/snippet?app_pkg=com.uncube.launcher3&partner=interstellar')"
+  },
+  {
+    "name": "Temu",
+    "imageUrl": "/assets/media/icons/temu.webp",
+    "url": "openAg('https://www.temu.com/')"
+  },
+  {
+    "name": "Character AI",
+    "imageUrl": "/assets/media/icons/characterai.webp",
+    "url": "openAg('https://now.gg/iframe/snippet?app_pkg=ai.character.app&partner=interstellar')"
+  },
+  {
+    "name": "Aptoide",
+    "imageUrl": "/assets/media/icons/aptoide.webp",
+    "url": "openAg('https://now.gg/iframe/snippet?app_pkg=com.aptoide.partners.nowgg.store&partner=interstellar')"
+  },
+  {
+    "name": "Scratch",
+    "imageUrl": "/assets/media/icons/scratch.webp",
+    "url": "openAg('https://scratch.mit.edu')"
+  },
+  {
+    "name": "Chess.com",
+    "imageUrl": "/assets/media/icons/chess.webp",
+    "url": "openAg('https://www.chess.com/')"
+  },
+  {
+    "name": "Cool Math Games",
+    "imageUrl": "/assets/media/icons/coolmath.webp",
+    "url": "openAg('https://www.coolmathgames.com/')"
+  },
+  {
+    "name": "Discord",
+    "imageUrl": "/assets/media/icons/dc.jpg",
+    "url": "openAg('https://discord.com')"
+  },
+  {
+    "name": "Discord Canary",
+    "imageUrl": "/assets/media/icons/dc.jpg",
+    "url": "openAg('https://canary.discord.com')"
+  },
+  {
+    "name": "Discord PTB",
+    "imageUrl": "/assets/media/icons/dc.jpg",
+    "url": "openAg('https://ptb.discord.com')"
+  },
+  {
+    "name": "DuckDuckGo",
+    "imageUrl": "/assets/media/icons/duckduckgo.webp",
+    "url": "openAg('https://start.duckduckgo.com/')"
+  },
+  {
+    "name": "ESPN",
+    "imageUrl": "/assets/media/icons/espn.webp",
+    "url": "openAg('https://www.espn.com/watch/')"
+  },
+  {
+    "name": "Fifa Rosters",
+    "imageUrl": "/assets/media/icons/fifa.webp",
+    "url": "openAg('https://fifarosters.com/')"
+  },
+  {
+    "name": "Firefox Web Browser",
+    "imageUrl": "/assets/media/icons/firefox.webp",
+    "url": "openAg('https://replit.com/@cooleddie001/Firefox-Legacy?v=1')"
+  },
+  {
+    "name": "Flix HQ",
+    "imageUrl": "/assets/media/icons/flixhq.webp",
+    "url": "openAg('https://flixhq.to')"
+  },
+  {
+    "name": "Geforce NOW",
+    "imageUrl": "/assets/media/icons/geforce-now.webp",
+    "url": "openAg('https://play.geforcenow.com')"
+  },
+  {
+    "name": "Github",
+    "imageUrl": "/assets/media/icons/github.webp",
+    "url": "openAg('https://github.com')"
+  },
+  {
+    "name": "Google",
+    "imageUrl": "/assets/media/icons/google.webp",
+    "url": "openAg('https://google.com')"
+  },
+  {
+    "name": "HBO MAX",
+    "imageUrl": "/assets/media/icons/hbo.webp",
+    "url": "openAg('https://www.hbomax.com/')"
+  },
+  {
+    "name": "Messenger",
+    "imageUrl": "/assets/media/icons/messenger.webp",
+    "url": "openAg('https://messenger.com/')"
+  },
+  {
+    "name": "MLB",
+    "imageUrl": "/assets/media/icons/mlb.webp",
+    "url": "openAg('https://mlb.com')"
+  },
+  {
+    "name": "NFL",
+    "imageUrl": "/assets/media/icons/nfl.webp",
+    "url": "openAg('https://nfl.com')"
+  },
+  {
+    "name": "NBA",
+    "imageUrl": "assets/media/icons/nba.webp",
+    "url": "openAg('https://nba.com')"
+  },
+  {
+    "name": "Paramount Plus",
+    "imageUrl": "/assets/media/icons/paramount.webp",
+    "url": "openAg('https://paramountplus.com')"
+  },
+  {
+    "name": "Pinterest",
+    "imageUrl": "/assets/media/icons/pinterest.webp",
+    "url": "openAg('https://pinterest.com')"
+  },
+  {
+    "name": "Pixlr",
+    "imageUrl": "/assets/media/icons/pix.webp",
+    "url": "openAg('https://pixlr.com/')"
+  },
+  {
+    "name": "Poki",
+    "imageUrl": "/assets/media/icons/poki.webp",
+    "url": "openAg('https://poki.com')"
+  },
+  {
+    "name": "Premier League",
+    "imageUrl": "/assets/media/icons/pl.webp",
+    "url": "openAg('https://premierleague.com')"
+  },
+  {
+    "name": "Soundcloud",
+    "imageUrl": "/assets/media/icons/soundcloud.webp",
+    "url": "openAg('https://soundcloud.com')"
+  },
+  {
+    "name": "Spotify",
+    "imageUrl": "/assets/media/icons/spotify.webp",
+    "url": "openAg('https://accounts.spotify.com/login')"
+  },
+  {
+    "name": "Telegram",
+    "imageUrl": "/assets/media/icons/telegram.webp",
+    "url": "openAg('https://web.telegram.org/')"
+  },
+  {
+    "name": "Tiktok",
+    "imageUrl": "/assets/media/icons/tiktok.webp",
+    "url": "openAg('https://tiktok.com')"
+  },
+  {
+    "name": "Free Media Heck Yeah",
+    "imageUrl": "/assets/media/icons/fmhy.webp",
+    "url": "openAg('https://fmhy.pages.dev')"
+  },
+  {
+    "name": "Canva",
+    "imageUrl": "/assets/media/icons/canva.webp",
+    "url": "openAg('https://canva.com')"
+  },
+  {
+    "name": "Wikipedia",
+    "imageUrl": "/assets/media/icons/wiki.webp",
+    "url": "openAg('https://en.wikipedia.org')"
+  },
+  {
+    "name": "GOAL",
+    "imageUrl": "/assets/media/icons/goal.webp",
+    "url": "openAg('https://goal.com')"
+  },
+  {
+    "name": "Trello",
+    "imageUrl": "/assets/media/icons/trello.webp",
+    "url": "openAg('https://trello.com')"
+  },
+  {
+    "name": "Gidd.io Games",
+    "imageUrl": "/assets/media/icons/gidd.webp",
+    "url": "openAg('https://gidd.io')"
+  },
+  {
+    "name": "Tumblr",
+    "imageUrl": "/assets/media/icons/tumblr.webp",
+    "url": "openAg('https://tumblr.com/')"
+  },
+  {
+    "name": "Twitch",
+    "imageUrl": "/assets/media/icons/twitch.webp",
+    "url": "openAg('https://twitch.tv')"
+  },
+  {
+    "name": "Twitter",
+    "imageUrl": "/assets/media/icons/twitter.webp",
+    "url": "openAg('https://twitter.com')"
+  },
+  {
+    "name": "VS Code",
+    "imageUrl": "/assets/media/icons/vscode.webp",
+    "url": "openAg('https://vscode.dev')"
+  },
+  {
+    "name": "Y8 Games",
+    "imageUrl": "/assets/media/icons/y8.webp",
+    "url": "openAg('https://y8.com/')"
+  },
+  {
+    "name": "YouTube",
+    "imageUrl": "/assets/media/icons/youtube.webp",
+    "url": "openAg('https://youtube.com')"
+  },
+  {
+    "name": "YouTube Alternative (Invidious)",
+    "imageUrl": "/assets/media/icons/youtube.webp",
+    "url": "openAg('https://vid.puffyan.us/')"
+  },
+  {
+    "name": "Whatsapp",
+    "imageUrl": "/assets/media/icons/whatsapp.webp",
+    "url": "openAg('https://web.whatsapp.com/')"
+  },
+  {
+    "name": "Wattpad",
+    "imageUrl": "/assets/media/icons/wattpad.webp",
+    "url": "openAg('https://www.wattpad.com/')"
+  },
+  {
+    "name": "Discord - Login",
+    "imageUrl": "/assets/media/icons/dc.jpg",
+    "url": "openAg('https://discord.com/login')"
+  },
+  {
+    "name": "Discord Canary - Login",
+    "imageUrl": "/assets/media/icons/dc.jpg",
+    "url": "openAg('https://canary.discord.com/login')"
+  },
+  {
+    "name": "Discord PTB - Login",
+    "imageUrl": "/assets/media/icons/dc.jpg",
+    "url": "openAg('https://ptb.discord.com/login')"
+  },
+  {
+    "name": "HD Today",
+    "imageUrl": "/assets/media/icons/hd.webp",
+    "url": "openAg('https://hdtoday.tv')"
+  },
+  {
+    "name": "Now.GG",
+    "imageUrl": "/assets/media/icons/now-gg.webp",
+    "url": "openAg('https://now.gg')"
+  },
+  {
+    "name": "Now.GG (NowGG.me) [Working]",
+    "imageUrl": "/assets/media/icons/shuttle.webp",
+    "url": "openAg('https://nowgg.me')"
+  },
+  {
+    "name": "Vercel",
+    "imageUrl": "/assets/media/icons/vercel.webp",
+    "url": "openAg('https://vercel.com')"
+  },
+  {
+    "name": "Amazon Luna",
+    "imageUrl": "/assets/media/icons/amazon-luna.webp",
+    "url": "openAg('https://luna.amazon.com/')"
+  },
+  {
+    "name": "Google Gemini",
+    "imageUrl": "/assets/media/icons/gemini.webp",
+    "url": "openAg('https://gemini.google.com')"
+  },
+  {
+    "name": "Google Mail (Gmail)",
+    "imageUrl": "/assets/media/icons/gmail.webp",
+    "url": "openAg('https://mail.google.com/')"
+  },
+  {
+    "name": "Outlook",
+    "imageUrl": "/assets/media/icons/outlook.webp",
+    "url": "openAg('https://outlook.live.com/')"
+  },
+  {
+    "name": "Snapchat",
+    "imageUrl": "/assets/media/icons/snap.webp",
+    "url": "openAg('https://web.snapchat.com/')"
+  },
+  {
+    "name": "W3Schools",
+    "imageUrl": "/assets/media/icons/W3Schools.webp",
+    "url": "openAg('https://www.w3schools.com')"
+  },
+  {
+    "name": "Newgrounds",
+    "imageUrl": "/assets/media/icons/newgrounds.webp",
+    "url": "openAg('https://www.newgrounds.com')"
+  },
+  {
+    "name": "Instagram",
+    "imageUrl": "/assets/media/icons/insta.webp",
+    "url": "openAg('https://www.instagram.com')"
+  },
+  {
+    "name": "Proton Mail",
+    "imageUrl": "/assets/media/icons/proton.webp",
+    "url": "openAg('https://mail.proton.me')"
+  },
+  {
+    "name": "SpaceHey",
+    "imageUrl": "/assets/media/icons/spacehey.png",
+    "url": "openAg('https://www.spacehey.com')"
+  },
+  {
+    "name": "FMovies.to",
+    "imageUrl": "/assets/media/icons/FM.png",
+    "url": "openAg('https://fmovies24.to/')"
+  },
+  {
+    "name": "EMovies.si",
+    "imageUrl": "/assets/media/icons/FM.png",
+    "url": "openAg('https://emovies.si')"
+  },
+  {
+    "name": "Movie Web",
+    "imageUrl": "/assets/media/icons/MW.png",
+    "url": "openAg('https://movie-web-me.vercel.app/')"
+  },
+  {
+    "name": "Sudo-Flix.Lol (Movie Web Clone)",
+    "imageUrl": "/assets/media/icons/MW.png",
+    "url": "openAg('https://sudo-flix.lol/')"
+  },
+  {
+    "name": "GBA Games",
+    "imageUrl": "/assets/media/icons/gba.png",
+    "url": "openAg('https://gba.js.org/')"
+  },
+  {
+    "name": "GPTZero.me",
+    "imageUrl": "/assets/media/icons/gz.webp",
+    "url": "openAg('https://gptzero.me/')"
+  },
+  {
+    "name": "ZeroGPT.com",
+    "imageUrl": "/assets/media/icons/zg.webp",
+    "url": "openAg('https://www.zerogpt.com/')"
+  },
+  {
+    "name": "ChatGPT",
+    "imageUrl": "/assets/media/icons/gpt.jpg",
+    "url": "openAg('https://chat.openai.com')"
+  },
+  {
+    "name": "CopyLeaks.com",
+    "imageUrl": "/assets/media/icons/cl.jpg",
+    "url": "openAg('https://copyleaks.com/ai-content-detector')"
+  },
+  {
+    "name": "Writer.com",
+    "imageUrl": "/assets/media/icons/wr.png",
+    "url": "openAg('https://writer.com/ai-content-detector/')"
+  },
+  {
+    "name": "Quillbot.com AI Detector",
+    "imageUrl": "/assets/media/icons/qb.jpg",
+    "url": "openAg('https://quillbot.com/ai-content-detector')"
+  },
+  {
+    "name": "Kome.ai YouTube Transcript",
+    "imageUrl": "/assets/media/icons/km.webp",
+    "url": "openAg('https://kome.ai/tools/youtube-transcript-generator')"
+  },
+  {
+    "name": "NoteGPT.io YouTube Transcript",
+    "imageUrl": "/assets/media/icons/ng.jpg",
+    "url": "openAg('https://notegpt.io/youtube-transcript-generator')"
+  },
+  {
+    "name": "Grammarly Plagiarism Checker",
+    "imageUrl": "/assets/media/icons/gm.png",
+    "url": "openAg('https://www.grammarly.com/plagiarism-checker')"
+  },
+  {
+    "name": "Plagiarism Detector",
+    "imageUrl": "/assets/media/icons/pdn.png",
+    "url": "openAg('https://plagiarismdetector.net/')"
+  },
+  {
+    "name": "Blooket Cheats",
+    "imageUrl": "/assets/media/icons/bl.webp",
+    "url": "openAg('https://github.com/005konz/Blooket-Cheats')"
+  },
+  {
+    "name": "Edpuzzle Cheats",
+    "imageUrl": "/assets/media/icons/ep.png",
+    "url": "openAg('https://github.com/ading2210/edpuzzle-answers')"
+  },
+  {
+    "name": "DeepAI.org",
+    "imageUrl": "/assets/media/icons/da.webp",
+    "url": "openAg('https://deepai.org/')"
+  },
+  {
+    "name": "FreedomGPT",
+    "imageUrl": "/assets/media/icons/gpt.jpg",
+    "url": "openAg('https://chat.freedomgpt.com/')"
+  },
+  {
+    "name": "TalkAI.info",
+    "imageUrl": "/assets/media/icons/ta.webp",
+    "url": "openAg('https://talkai.info/chat/')"
+  },
+  {
+    "name": "JuliusAI",
+    "imageUrl": "/assets/img/gpt.webp",
+    "url": "openAg('https://julius.ai/ai-chatbot')"
+  },
+  {
+    "name": "Reddit",
+    "imageUrl": "/assets/img/reddit.webp",
+    "url": "openAg('https://reddit.com')"
+  },
+  {
+    "name": "CrazyGames",
+    "imageUrl": "/assets/img/crazygames.webp",
+    "url": "openAg('https://crazygames.com')"
+  },
+  {
+    "name": "Netflix",
+    "imageUrl": "/assets/img/netflix.webp",
+    "url": "openAg('https://netflix.com')"
+  },
+  {
+    "name": "SFlix Movies",
+    "imageUrl": "/assets/img/sflix.webp",
+    "url": "openAg('https://vidstream.to')"
+  },
+  {
+    "name": "9anime",
+    "imageUrl": "/assets/img/9anim.webp",
+    "url": "openAg('https://9animetv.to')"
+  },
+  {
+    "name": "Symbolab Math Solver",
+    "imageUrl": "/assets/img/symbolab.webp",
+    "url": "openAg('https://www.symbolab.com')",
+    "height": 130
+  }
+]
