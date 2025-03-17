@@ -8,13 +8,11 @@ import { uvPath } from "@titaniumnetwork-dev/ultraviolet";
 import wisp from "wisp-server-node";
 import request from '@cypress/request';
 import chalk from 'chalk';
-import packageJson from './package.json' assert { type: 'json' };
 import fs from 'node:fs';
 const __dirname = path.resolve();
 const server = http.createServer();
 const bareServer = createBareServer('/seal/');
 const app = express(server);
-const version = packageJson.version;
 const discord = 'https://discord.gg/unblocking';
 const routes = [
   { route: '/mastery', file: './static/loader.html' },
@@ -143,7 +141,7 @@ server.on('listening', () => {
   console.log(chalk.green('  🌍 Port: ') + chalk.bold(chalk.yellow(server.address().port)));
   console.log(chalk.green('  🕒 Time: ') + chalk.bold(new Date().toLocaleTimeString()));
   console.log(chalk.cyan('-----------------------------------------------'));
-  console.log(chalk.magenta('📦 Version: ') + chalk.bold(version));
+  console.log(chalk.magenta('📦 Version: ') + chalk.bold('idk'));
   console.log(chalk.magenta('🔗 URL: ') + chalk.underline('http://localhost:' + server.address().port));
   console.log(chalk.cyan('-----------------------------------------------'));
   console.log(chalk.blue('💬 Discord: ') + chalk.underline(discord));
